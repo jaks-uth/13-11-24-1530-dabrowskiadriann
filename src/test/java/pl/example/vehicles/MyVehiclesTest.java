@@ -1,9 +1,10 @@
 package pl.example.vehicles;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-public class VehiclesTest {
+public class MyVehiclesTest {
 
     @Test
     public void testCarMaxSpeed() {
@@ -28,3 +29,4 @@ public class VehiclesTest {
         Vehicle vehicle = new Car("Convertible", 2);
         assertEquals("Convertible", vehicle.getName());
     }
+}
